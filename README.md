@@ -1,4 +1,4 @@
-# 🛠️ Fresadora PCB LPKF ProtoMat C60 – Guia de Uso e Retrofit Educacional
+# 🛠️ LPKF ProtoMat C60 (Retrofit Educacional) — Guia de Uso e Documentação Técnicaa
 
 Repositório educacional com **tutoriais em Markdown e códigos** utilizados na **operação, configuração e retrofit** de uma fresadora de PCBs **LPKF ProtoMat C60**, desenvolvidos no contexto de um **Trabalho de Conclusão de Curso (TCC)**.
 
