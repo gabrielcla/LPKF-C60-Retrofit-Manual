@@ -5,23 +5,15 @@ Repositório educacional com **tutoriais em Markdown e códigos** utilizados na 
 O objetivo é servir como **guia prático** para **alunos, professores e técnicos**, documentando o fluxo real utilizado para produzir placas de circuito impresso — do preparo dos arquivos à usinagem final. As soluções apresentadas refletem o contexto e os recursos disponíveis no projeto e **podem (e devem) ser aprimoradas** ao longo do tempo.
 
 
-
-## 📖 Visão Geral
-
-Este repositório documenta a recuperação e o uso prático de uma fresadora de PCBs **LPKF ProtoMat C60**, incluindo instruções operacionais, boas práticas de laboratório e códigos utilizados no processo de retrofit.
-
-O material foi pensado para facilitar a continuidade do uso da máquina em ambiente acadêmico, reduzindo a dependência de conhecimento informal e centralizando a documentação técnica.
-
 ---
-## 📘 Tutoriais
+## Tutoriais
 
 Os tutoriais estão organizados na pasta `Tutorial/` e devem ser lidos **preferencialmente em ordem**:
 
 [**1 - Primeiros Passos**](Tutorial/01_primeiros_passos.md) - Conhecendo a máquina e o firmware FluidNC  
 [**2 - Operações Básicas - Como Operar a Fresadora**](Tutorial/02_operacoes_basicas.md) - Operações básicas com a máquina  
 [**3 - Usando GCodes e Controlando a Máquina**](Tutorial/03_usando_gcodes.md) - Criando as instruções para a usinagem  
-[**4 - Usinando a partir de G-Codes**](Tutorial/04_usinagem.md) - Como usinar uma PCB  
-[**5 - Problemas Comuns e Soluções**](Tutorial/05_problemas_comuns.md) - Principais problemas 
+[**4 - Usinando a partir de G-codes**](Tutorial/04_usinagem.md) - Como usinar uma PCB  
 
 
 ---
@@ -30,8 +22,9 @@ Os tutoriais estão organizados na pasta `Tutorial/` e devem ser lidos **prefere
 
 A pasta `Retrofit/` contém:
 
-* Arquivo de configuração do Fiwmware
-* Código para o arduino uno funcionar como ESC do spindle
+* Arquivo de configuração do Firmware FluidNC
+* Código para o Arduino Uno funcionar como ESC do spindle
+* Mais informações sobre o retrofit
 
 Esses códigos fazem parte do processo de retrofit e estão disponíveis para **consulta, estudo e melhoria**.
 
@@ -49,12 +42,13 @@ Esses códigos fazem parte do processo de retrofit e estão disponíveis para **
 │   ├── 02_operacoes_basicas.md
 │   ├── 03_gcodes.md
 │   ├── 04_usinagem.md
-│   └── 05_problemas_comuns.md
 ├── Retrofit/
 │   ├── ESC - Arduino Uno/
 │   ├── FluidNC - MKS DLC32/
 ├── Projeto Exemplo/
-├── G-Codes/
+│   ├── KiCAD
+│   ├── FlatCAM
+│   ├── G-codes
 └── LICENSE
 ```
 
@@ -88,9 +82,14 @@ Caso queira contribuir:
 A ideia é que este repositório evolua e se torne um **manual de referência** para uso contínuo da máquina.
 
 ---
+## 🎓 Contexto Acadêmico
+Este repositório foi desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)** em Engenharia da Computação, com foco na recuperação, retrofit e documentação de uma fresadora de PCBs para uso didático em laboratório.
+O objetivo é facilitar a **transferência de conhecimento** e permitir que futuros alunos, professores e técnicos possam operar, manter e evoluir a máquina.
 
 ## 📜 Licença
 
-Este projeto é disponibilizado para fins **educacionais**.
+Este projeto é distribuído sob a licença **MIT**.
 
-Consulte o arquivo `LICENSE` para mais detalhes sobre uso, modificação e distribuição.
+Apesar de ter sido desenvolvido com **finalidade educacional**, a licença permite o **uso, modificação e redistribuição**, inclusive para outros fins, desde que mantido o aviso de copyright.
+
+Consulte o arquivo [`LICENSE`](./LICENSE) para os termos completos.

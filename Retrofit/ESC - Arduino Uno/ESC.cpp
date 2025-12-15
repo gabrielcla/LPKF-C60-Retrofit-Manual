@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2025 Gabriel Couto
+
 #include <avr/io.h>        // acesso direto aos registradores (PORT, DDR, TCCR, etc.)
 #include <avr/interrupt.h> // controle de interrupções (sei(), cli(), ISR)
 #include <avr/pgmspace.h>  // para usar PROGMEM e pgm_read_byte_near()

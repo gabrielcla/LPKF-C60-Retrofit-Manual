@@ -85,5 +85,7 @@ Os arquivos gerados devem ser copiados para o cartão SD da fresadora.
 
 ➡️ Próximo tutorial:  
 [04 - Como Usinar a partir de G-Codes](04_usinagem.md)  
+[⬅ Voltar para Tutoriais](../README.md#tutoriais)
 
-
+---
+> Licença: MIT — consulte [`LICENSE`](../LICENSE).

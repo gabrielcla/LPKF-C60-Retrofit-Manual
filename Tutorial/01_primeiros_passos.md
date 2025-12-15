@@ -38,5 +38,17 @@ A interface WEB é dividida nas seguintes regiões:
 - Região E – Console de Comunicação: Mostra o log de comunicação entre o firmware e o host, permitindo o envio manual de comandos em G-code e o monitoramento da execução em tempo real.
 
 
+---
+
+> **Aviso sobre material de terceiros:**  
+> Algumas imagens utilizadas neste tutorial foram extraídas do manual original da fresadora **LPKF ProtoMat C60**, pertencente à **LPKF Laser & Electronics AG**.  
+> O uso dessas imagens tem finalidade **exclusivamente educacional**, sem fins comerciais.  
+> Todos os direitos pertencem aos seus respectivos autores.  
+---
+
 ➡️ Próximo tutorial:  
-[02 - Operações Básicas - Como Operar a Fresadora](02_operacoes_basicas.md)  
+[02 - Operações Básicas - Como Operar a Fresadora](02_operacoes_basicas.md)
+
+[⬅ Voltar para Tutoriais](../README.md#tutoriais)
+
+
