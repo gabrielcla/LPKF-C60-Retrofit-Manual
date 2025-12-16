@@ -3,10 +3,10 @@
 ## 1) Conhecendo a Máquina
 
 #### Principais Partes da Máquina
-- Eixos X e Y - Controlado por Motores de Passo
-- Eixo Z - Controlado por Solenoide
-- Spindle
-- Limitador de Profundidade
+- Eixos X e Y - Controlados por motores de passo
+- Eixo Z - Controlado por solenoide
+- Spindle - Motor efetivamente realiza a usinagem
+- Limitador de Profundidade - Regula o quão profundo a ferramenta entra na placa
     
 #### Orientação e Posicionamento
 

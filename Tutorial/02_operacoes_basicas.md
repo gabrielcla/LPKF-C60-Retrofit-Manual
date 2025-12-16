@@ -182,7 +182,7 @@ Ele é usada pra resfriar o motor
 
 --- 
 ➡️ Próximo tutorial:  
-[03 - Usando GCodes e Controlando a Máquina](03_usando_gcodes.md)  
+[03 - Controlando a Máquina com G-codes](03_gcodes_basico.md)  
 
 [⬅ Voltar para Tutoriais](../README.md#tutoriais)
 

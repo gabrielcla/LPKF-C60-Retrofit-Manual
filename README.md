@@ -4,16 +4,16 @@ Repositório educacional com **tutoriais em Markdown e códigos** utilizados na 
 
 O objetivo é servir como **guia prático** para **alunos, professores e técnicos**, documentando o fluxo real utilizado para produzir placas de circuito impresso — do preparo dos arquivos à usinagem final. As soluções apresentadas refletem o contexto e os recursos disponíveis no projeto e **podem (e devem) ser aprimoradas** ao longo do tempo.
 
-
 ---
 ## Tutoriais
 
 Os tutoriais estão organizados na pasta `Tutorial/` e devem ser lidos **preferencialmente em ordem**:
 
-[**1 - Primeiros Passos**](Tutorial/01_primeiros_passos.md) - Conhecendo a máquina e o firmware FluidNC  
-[**2 - Operações Básicas - Como Operar a Fresadora**](Tutorial/02_operacoes_basicas.md) - Operações básicas com a máquina  
-[**3 - Usando GCodes e Controlando a Máquina**](Tutorial/03_usando_gcodes.md) - Criando as instruções para a usinagem  
-[**4 - Usinando a partir de G-codes**](Tutorial/04_usinagem.md) - Como usinar uma PCB  
+[**1 - Conhecendo a máquina e o firmware FluidNC**](Tutorial/01_primeiros_passos.md)  
+[**2 - Operações básicas com a máquina**](Tutorial/02_operacoes_basicas.md)  
+[**3 - Controlando a máquina com G-codes**](Tutorial/03_usando_gcodes.md)  
+[**4 - Gerando G-codes a partir de um projeto CAD**](Tutorial/04_gcodes_cad.md)  
+[**5 - Usinando a partir dos G-codes**](Tutorial/05_usinagem.md)  
 
 
 ---

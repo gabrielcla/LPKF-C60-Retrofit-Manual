@@ -53,38 +53,9 @@ M5          ; Desliga o spindle
 
 ---
 
-## G-Code Úteis
-- Scripts Úteis
-
----
-
-# Extra - Como Gerar Arquivos (KiCad → FlatCAM → G-code)
-
-## 🖥️ KiCad
-
-- Criar o esquema elétrico
-- Gerar o layout da placa
-- Exportar arquivos Gerber e Excellon
-
----
-
-## 🔧 FlatCAM
-
-- Importar Gerbers e Excellon
-- Definir ferramenta
-- Gerar trilhas e furos
-- Exportar G-code
-
----
-
-## 📁 G-code
-
-Os arquivos gerados devem ser copiados para o cartão SD da fresadora.
-
----
-
 ➡️ Próximo tutorial:  
-[04 - Como Usinar a partir de G-Codes](04_usinagem.md)  
+[04 - Gerando G-codes a partir de um projeto CAD](04_gcodes_cad.md)  
+
 [⬅ Voltar para Tutoriais](../README.md#tutoriais)
 
 ---

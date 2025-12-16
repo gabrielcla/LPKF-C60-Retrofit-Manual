@@ -8,10 +8,10 @@
 
 ### Testagem dos G-codes e Posicionamento
 > Para ter certeza que o gcode esta como deveria, execute o código dele SEM TER NADA NA MESA DA MÁQUINA!
-> Aproveite tbm pra marcar a posição que a placa deve ficar na base da máquina
+> Aproveite também pra marcar a posição que a placa deve ficar na base da máquina
 
 Para garantir que seu gcode vai ligar o spindle, baixar o solenoide e fazer todos os movimentos corretos,
-além de tbm verificar se o projeto no kicad definiu corretamente as posições de origem, executa-se os gcodes sem ter placa na máquina.  
+além de tambem verificar se o projeto no kicad definiu corretamente as posições de origem, executa-se os gcodes sem ter placa na máquina.  
 
 Garanta que ela esta fazendo as seguintes ações:
     Ligar o spindle e atingir a velocidade final antes de baixar o solenoide
@@ -57,12 +57,8 @@ executando o gcode dele varias vezes e ir incrementando a profundidade até atra
 
 
 
-
 ---
 
-
-➡️ Próximo tutorial:  
-[05 - Problemas Comuns e Soluções](05_problemas_comuns.md)  
 [⬅ Voltar para Tutoriais](../README.md#tutoriais)
 
 ---
