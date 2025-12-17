@@ -46,7 +46,7 @@ A base de sacrificío que o manual recomenda é um pedaço de papelão.
 2. Empurre o knuk do spindle pra baixo para ele travar. <br>
 Isso vai permitir apertar e soltar a ferramenta.  
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/travando_knob.png" width="200">  
+    <img src="assets/fotos_fresadora/trocar_ferramenta/travando_knob.png" width="200">  <br>
     <figcaption>
         <em>Travando o eixo do spindle</em>
     </figcaption>
@@ -65,7 +65,7 @@ Isso vai permitir apertar e soltar a ferramenta.
     > **Jamais perca a pinça do spindle!**  
     Não existe essa peça pra comprar e o spindle não serve sem ela!
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/pinca.png" width="200">  
+    <img src="assets/fotos_fresadora/trocar_ferramenta/pinca.png" width="200">  <br>
     <figcaption>
         <em>Pinça sem ferramenta acoplada</em>
     </figcaption>
