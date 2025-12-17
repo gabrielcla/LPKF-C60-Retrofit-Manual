@@ -49,6 +49,6 @@ A interface WEB é dividida nas seguintes regiões:
 ➡️ Próximo tutorial:  
 [02 - Operações Básicas - Como Operar a Fresadora](02_operacoes_basicas.md)
 
-[⬅ Voltar para Tutoriais](../README.md#tutoriais)
+[⬅ Voltar para Tutoriais](../README.md#📘-tutoriais)
 
 
