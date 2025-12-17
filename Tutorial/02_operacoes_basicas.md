@@ -7,6 +7,12 @@
 4. Ligar o aspirador do spindle
 5. Ligar o cabo de alimentação da LPKF numa tomada 220V (alimenta a placa do spindle)
 
+> **OBS: Nunca ligue a LPKF na tomada sem estar com o arduino Uno ligado!**
+
+>**OBS: NÃO USE O SPINDLE SEM UM ASPIRADOR CONECTADO!**<br>
+Ele é usada pra resfriar o motor!
+
+
 ## 2) Fazendo Homing
 > Sempre faça homing após ligar a máquina!
 

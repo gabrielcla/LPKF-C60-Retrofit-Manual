@@ -147,11 +147,6 @@ FR-1 são as placas feitas de fenolite (macias) e FR-4 são as placas feitas de 
 | 0,30 mm       | 60.000 (máx.)                     | 60.000 (máx.)             |
 
 
-> **OBS: Nunca ligue a LPKF na tomada sem estar com o arduino Uno ligado!**
-
->**OBS: NUNCA USE O SPINDLE SEM UM ASPIRADOR CONECTADO!**<br>
-Ele é usada pra resfriar o motor
-
 
 ---
 
