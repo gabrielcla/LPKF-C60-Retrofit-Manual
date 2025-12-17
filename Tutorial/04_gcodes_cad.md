@@ -163,12 +163,15 @@ Ele é usada pra resfriar o motor
 
 Este fluxo foi validado para uso em fresadora de PCBs retrofitada.
 
+
+<br><br>
+
 ---
-
-➡️ Próximo tutorial:  
-[05 - Usinando a partir dos G-codes](05_usinagem.md)  
-
-[⬅ Voltar para Tutoriais](../README.md#tutoriais)
+<p>
+  <a href="../README.md#tutoriais">⬅ Voltar para Tutoriais</a>
+  <span style="float:right">
+    <a href="05_usinagem.md">Próximo Tutorial ➡️</a>
+  </span>
 
 ---
 > Licença: MIT — consulte [`LICENSE`](../LICENSE).

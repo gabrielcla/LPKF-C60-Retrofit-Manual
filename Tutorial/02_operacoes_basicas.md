@@ -1,6 +1,6 @@
-# Operações Básicas - Como Operar a Fresadora
+# Operações Básicas com a Máquina
 
-## 1) 🔌 Ligando a Máquina na Ordem Correta
+## 1) Ligando a Máquina na Ordem Correta
 1. Ligar a placa MKS DLC32
 2. Ligar o Arduino Uno
 3. Ligar fonte de bancada (32V,5A) - Ela alimenta os drivers dos eixos x, y e o solenoide do eixo Z
@@ -93,6 +93,8 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
     </figcaption>
     </figure>
 
+> **NUNCA** ligue o spindle com ele travado, **tem grande chance de danificar o spindle!**
+
 ## 5) Como Ajustar o Limitador de Profundidade  
 <figure align="center">
 <img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300">  
@@ -127,11 +129,14 @@ Mas não pode ir muito fundo pois força demais a ferramenta e a **fresa vai que
 A broca precisa atravessar completamente a placa (1600um) e chegar até o material de sacrifício sob a placa.  
 Se tentar furar sem o material de sacrificio em baixo da placa a **broca vai quebrar** ao tocar na base de alumínio.
 
---- 
-➡️ Próximo tutorial:  
-[03 - Controlando a máquina com G-codes](03_gcodes_basico.md)  
+<br><br>
 
-[⬅ Voltar para Tutoriais](../README.md#tutoriais)
+---
+<p>
+  <a href="../README.md#tutoriais">⬅ Voltar para Tutoriais</a>
+  <span style="float:right">
+    <a href="03_gcodes_basico.md">Próximo Tutorial ➡️</a>
+  </span>
 
 ---
 > Licença: MIT — consulte [`LICENSE`](../LICENSE).

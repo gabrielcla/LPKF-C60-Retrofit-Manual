@@ -1,6 +1,7 @@
-# Usando GCodes e Controlando a Máquina
+# Controlando a Máquina com G-codes
 
-### Existem 2 modos de executar G-codes no FluidNC:
+## Executando G-codes no FluidNC
+Existem 2 modos de executar G-codes no FluidNC:
 - A partir do comando no console
 - A partir de um arquivo no sdcard
 
@@ -43,7 +44,7 @@ G0 Z0   ; Levanta o solenoide
 
 
 ### Controlando Spindle
-O comando M3 liga o spindle com a velocidade fornecida enquanto o comando M5 desliga<br>
+O comando `M3` liga o spindle com a velocidade fornecida enquanto o comando `M5` desliga<br>
 OBS: A fresadora só aceita velocidades de 10 mil a 60 mil RPM.
 ```
 M3 S50000   ; Liga o spindle a 50.000 RPM
@@ -51,12 +52,14 @@ G4 P10      ; Aguarda 10 segundos (P em segundos no FluidNC)
 M5          ; Desliga o spindle
 ```
 
+<br><br>
+
 ---
-
-➡️ Próximo tutorial:  
-[04 - Gerando G-codes a partir de um projeto CAD](04_gcodes_cad.md)  
-
-[⬅ Voltar para Tutoriais](../README.md#tutoriais)
+<p>
+  <a href="../README.md#tutoriais">⬅ Voltar para Tutoriais</a>
+  <span style="float:right">
+    <a href="04_gcodes_cad.md">Próximo Tutorial ➡️</a>
+  </span>
 
 ---
 > Licença: MIT — consulte [`LICENSE`](../LICENSE).

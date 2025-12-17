@@ -1,4 +1,4 @@
-# Como Usinar a partir de G-codes
+# Usinando a partir dos G-codes
 
 ## Preparação
 - Ligue a máquina na ordem correta
@@ -51,15 +51,17 @@ executando o gcode dele varias vezes e ir incrementando a profundidade até atra
 
 
 ### 4. Finalização
-1. Mover a máquina pra posição S
+1. Mover a máquina pra posição L para liberar a área da placa
 2. OPCIONAL: Testar continuidade nas trilhas pra ver se separou bem
 3. Desgrudar a pcb da máquina e limpa-la
 
 
+<br><br>
 
 ---
-
-[⬅ Voltar para Tutoriais](../README.md#tutoriais)
+<p>
+  <a href="../README.md#tutoriais">⬅ Voltar para Tutoriais</a>
+  </span>
 
 ---
 > Licença: MIT — consulte [`LICENSE`](../LICENSE).
