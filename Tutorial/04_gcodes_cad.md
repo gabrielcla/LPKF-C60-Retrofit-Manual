@@ -117,6 +117,42 @@ Salve o projeto do FlatCAM numa pasta no disco C de nome simples, pois o FlatCAM
   </figcaption>
 </figure>
 
+
+---
+<br>  
+
+---
+
+
+### Velocidade Recomendada pro Spindle
+> OS VALORES ABAIXO SÃO APENAS UMA SUGESTÃO, só tive experiencia com 2 diametros diferentes.
+
+Primeiramente precisa-se saber qual a velocidade indicada de acordo com o tipo, diâmetro da ferramenta e do material da placa. Para isso usamos a tabela abaixo.
+
+#### Tabela RPM Recomendada:
+Em cada célula há 2 valores, que correspondem respectivamente a velocidade indicada para o material FR-1 e a para FR-4.  
+FR-1 são as placas feitas de fenolite (macias) e FR-4 são as placas feitas de fibra de vidro (muito duro)
+
+| Diâmetro (mm) | Broca – RPM recomendada           | Fresa – RPM recomendada   |
+|---------------|-----------------------------------|---------------------------|
+| 1,20 mm       | 22.000 – 32.000                   | 30.000 – 40.000           |
+| 1,10 mm       | 24.000 – 35.000                   | 35.000 – 40.000           |
+| 1,00 mm       | 26.000 – 38.000                   | 42.000 – 50.000           |
+| 0,90 mm       | 28.000 – 42.000                   | 48.000 – 55.000           |
+| 0,80 mm       | 32.000 – 50.000 (até 60k)         | 55.000 – 60.000           |
+| 0,70 mm       | 36.000 – 55.000                   | 58.000 – 60.000           |
+| 0,60 mm       | 40.000 – 60.000                   | 60.000 (máx.)             |
+| 0,50 mm       | 50.000 – 60.000                   | 60.000 (máx.)             |
+| 0,40 mm       | 55.000 – 60.000                   | 60.000 (máx.)             |
+| 0,30 mm       | 60.000 (máx.)                     | 60.000 (máx.)             |
+
+
+> **OBS: Nunca ligue a LPKF na tomada sem estar com o arduino Uno ligado!**
+
+>**OBS: NUNCA USE O SPINDLE SEM UM ASPIRADOR CONECTADO!**<br>
+Ele é usada pra resfriar o motor
+
+
 ---
 
 ## ✅ Observações finais

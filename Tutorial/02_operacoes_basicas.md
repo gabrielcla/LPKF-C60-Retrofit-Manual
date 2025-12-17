@@ -13,15 +13,11 @@
 Basta usar o comando ```$H``` no console do FluidNC que a máquina irá fazer homing para se localizar.
 
 ## 3) Como prender a placa na máquina
-
-
 ### 3.1) Como Encontrar a posição certa
 * A posição onde deve ser colocada a placa depende dos gcodes do seu projeto.
 * Se os gcodes foram criados pelo kicad (ou outros CADs) vai depender da posição usada como origem no programa.
 
 > Se não faz ideia da posição que deve ficar a placa, tire a placa e tudo da base da máquina e execute o gcode que contem o contorno da placa para descobrir onde sua placa deve ficar.
-
-
 
 ### 3.2) Base de Sacrifício
 A placa antes de ser usinada precisa ser presa num material de sacrificio de 2mm de espessura (não pode ser muito espessa).
@@ -32,7 +28,6 @@ A base de sacrificío que o manual recomenda é um pedaço de papelão.
     <em>Placa presa à base de sacrifício de papelão</em>
   </figcaption>
 </figure>
-
 
 ### 3.3) Como fixar na posição
 1. Mova a máquina para a posição de liberar área da placa
@@ -51,7 +46,7 @@ A base de sacrificío que o manual recomenda é um pedaço de papelão.
 2. Empurre o knuk do spindle pra baixo para ele travar. <br>
 Isso vai permitir apertar e soltar a ferramenta.  
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/travando_knob.png" width="200">
+    <img src="assets/fotos_fresadora/trocar_ferramenta/travando_knob.png" width="200">  
     <figcaption>
         <em>Travando o eixo do spindle</em>
     </figcaption>
@@ -60,32 +55,28 @@ Isso vai permitir apertar e soltar a ferramenta.
 3. Gire no sentido anti-horário para ir afroxando a pinça até ela junto com a ferramenta cairem na sua mão.
     >  Se deixa-los cair sem segura-los tem grande chance de quebrar a ferramenta que tiver na pinça.
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/pinca_com_fresa.png" width="300">
+    <img src="assets/fotos_fresadora/trocar_ferramenta/pinca_com_fresa.png" width="300">  
     <figcaption>
-        <em>Pinca com a fresa acoplada tira-las da máquina</em>
+        <em>Pinça com a fresa acoplada após tira-las do spindle</em>
     </figcaption>
     </figure>
-
 
 4. Tire a ferramenta que estiver na pinça com cuidado e guarde-o de forma segura. A imagem abaixo mostra a pinça do spindle sem nenhuma ferramenta acoplada.  
     > **Jamais perca a pinça do spindle!**  
     Não existe essa peça pra comprar e o spindle não serve sem ela!
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/pinca.png" width="200">
+    <img src="assets/fotos_fresadora/trocar_ferramenta/pinca.png" width="200">  
     <figcaption>
         <em>Pinça sem ferramenta acoplada</em>
     </figcaption>
     </figure>
-
-
-
 
 5. Coloque a ferramenta desejada na pinça e insira-os de volta no spindle.
 Atenção: A pinça so entra de um jeito no spindle, então tem que ficar segurando
 a ferramenta com cuidado com os dedos enquanto vai girando ela até ela entrar direito.
 Após entrar é só girar o knut pro sentido horário até o final para ele prender a ferramenta
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/botando_pinca.png" width="200">
+    <img src="assets/fotos_fresadora/trocar_ferramenta/botando_pinca.png" width="200">  
     <figcaption>
         <em>Botando a pinça com a fresa no spindle</em>
     </figcaption>
@@ -96,7 +87,7 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
     
 6. Empurre o knuk do spindle pra cima para ele destravar o eixo do spindle <br>
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/destravando_knob.png" width="200">
+    <img src="assets/fotos_fresadora/trocar_ferramenta/destravando_knob.png" width="200">  
     <figcaption>
         <em>Destravando o eixo do spindle</em>
     </figcaption>
@@ -107,12 +98,12 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
 
 
 ## 5) Como Ajustar o Limitador de Profundidade
-<figure align="center">
-<img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300"><br>
-<figcaption>
-    <em>Disco que regula o limitador de profundidade</em>
-</figcaption>
-</figure>
+    <figure align="center">
+    <img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300"><br>
+    <figcaption>
+        <em>Disco que regula o limitador de profundidade</em>
+    </figcaption>
+    </figure>
 
 O limitador de profundidade é esse "copo" que fica ao redor da ferramenta no spindle. Ao girar o disco serrilhado esse copo sobe/desce para expor/esconder mais a ponta da ferramenta, permitindo regular o quão profundo a ferramenta entra na PCB.
 
@@ -140,45 +131,6 @@ Mas não pode ir muito fundo pois força demais a ferramenta e a **fresa vai que
 #### Profundidade para Furar (Usando Broca)
 A broca precisa atravessar completamente a placa (1600um) e chegar até o material de sacrifício sob a placa.  
 Se tentar furar sem o material de sacrificio em baixo da placa a **broca vai quebrar** ao tocar na base de alumínio.
-
-
-
----
-<br>  
-
----
-
-
-### Velocidade Correta pro Spindle
-Isso precisa ser definido no FlatCAM ao exportar o gcode!
-
-> OS VALORES ABAIXO SÃO APENAS UMA SUGESTÃO, só tive experiencia com 2 diametros diferentes.
-
-Primeiramente precisa-se saber qual a velocidade indicada de acordo com o tipo, diâmetro da ferramenta e do material da placa. Para isso usamos a tabela abaixo.
-
-#### Tabela RPM Recomendada:
-Em cada célula há 2 valores, que correspondem respectivamente a velocidade indicada para o material FR-1 e a para FR-4.  
-FR-1 são as placas feitas de fenolite (macias) e FR-4 são as placas feitas de fibra de vidro (muito duro)
-
-| Diâmetro (mm) | Broca – RPM recomendada           | Fresa – RPM recomendada   |
-|---------------|-----------------------------------|---------------------------|
-| 1,20 mm       | 22.000 – 32.000                   | 30.000 – 40.000           |
-| 1,10 mm       | 24.000 – 35.000                   | 35.000 – 40.000           |
-| 1,00 mm       | 26.000 – 38.000                   | 42.000 – 50.000           |
-| 0,90 mm       | 28.000 – 42.000                   | 48.000 – 55.000           |
-| 0,80 mm       | 32.000 – 50.000 (até 60k)         | 55.000 – 60.000           |
-| 0,70 mm       | 36.000 – 55.000                   | 58.000 – 60.000           |
-| 0,60 mm       | 40.000 – 60.000                   | 60.000 (máx.)             |
-| 0,50 mm       | 50.000 – 60.000                   | 60.000 (máx.)             |
-| 0,40 mm       | 55.000 – 60.000                   | 60.000 (máx.)             |
-| 0,30 mm       | 60.000 (máx.)                     | 60.000 (máx.)             |
-
-
-> **OBS: Nunca ligue a LPKF na tomada sem estar com o arduino Uno ligado!**
-
->**OBS: NUNCA USE O SPINDLE SEM UM ASPIRADOR CONECTADO!**<br>
-Ele é usada pra resfriar o motor
-
 
 --- 
 ➡️ Próximo tutorial:  
