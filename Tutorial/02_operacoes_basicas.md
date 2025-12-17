@@ -98,12 +98,12 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
 
 
 ## 5) Como Ajustar o Limitador de Profundidade
-    <figure align="center">
-    <img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300"><br>
-    <figcaption>
-        <em>Disco que regula o limitador de profundidade</em>
-    </figcaption>
-    </figure>
+<figure align="center">
+<img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300"><br>
+<figcaption>
+    <em>Disco que regula o limitador de profundidade</em>
+</figcaption>
+</figure>
 
 O limitador de profundidade é esse "copo" que fica ao redor da ferramenta no spindle. Ao girar o disco serrilhado esse copo sobe/desce para expor/esconder mais a ponta da ferramenta, permitindo regular o quão profundo a ferramenta entra na PCB.
 
