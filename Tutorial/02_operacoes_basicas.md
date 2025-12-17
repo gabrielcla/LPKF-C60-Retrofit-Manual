@@ -76,7 +76,7 @@ Atenção: A pinça so entra de um jeito no spindle, então tem que ficar segura
 a ferramenta com cuidado com os dedos enquanto vai girando ela até ela entrar direito.
 Após entrar é só girar o knut pro sentido horário até o final para ele prender a ferramenta
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/botando_pinca.png" width="200">  
+    <img src="assets/fotos_fresadora/trocar_ferramenta/botando_pinca.png" width="200">  <br>
     <figcaption>
         <em>Botando a pinça com a fresa no spindle</em>
     </figcaption>
@@ -87,7 +87,7 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
     
 6. Empurre o knuk do spindle pra cima para ele destravar o eixo do spindle <br>
     <figure align="center">
-    <img src="assets/fotos_fresadora/trocar_ferramenta/destravando_knob.png" width="200">  
+    <img src="assets/fotos_fresadora/trocar_ferramenta/destravando_knob.png" width="200">  <br>
     <figcaption>
         <em>Destravando o eixo do spindle</em>
     </figcaption>
