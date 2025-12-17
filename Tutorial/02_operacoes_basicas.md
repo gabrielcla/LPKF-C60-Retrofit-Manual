@@ -93,13 +93,9 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
     </figcaption>
     </figure>
 
-
-
-
-
-## 5) Como Ajustar o Limitador de Profundidade
+## 5) Como Ajustar o Limitador de Profundidade  
 <figure align="center">
-<img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300"><br>
+<img src="assets/fotos_fresadora/limitador_profundidade.jpg" width="300">  
 <figcaption>
     <em>Disco que regula o limitador de profundidade</em>
 </figcaption>
@@ -113,8 +109,6 @@ O ajuste da profundidade é realizado girando o disco serrilhado indicado na fig
 |-------------------------------|-----------------------------|----------------|
 | Girar para Direita (UP)       | Sobe                        | Menos Profundo |
 | Girar para Esquerda (DOWN)    | Desce                       | Mais Profundo  |
-
-
 
 ### Instruções:
 1. Mova a máquina para próximo da PCB e **manualmente** mova o solenoide pra baixo e veja se a ponta da ferramenta atinge a profundidade adequada.
