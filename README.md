@@ -5,7 +5,7 @@ Repositório educacional com **tutoriais em Markdown e códigos** utilizados na 
 O objetivo é servir como **guia prático** para **alunos, professores e técnicos**, documentando o fluxo real utilizado para produzir placas de circuito impresso — do preparo dos arquivos à usinagem final. As soluções apresentadas refletem o contexto e os recursos disponíveis no projeto e **podem (e devem) ser aprimoradas** ao longo do tempo.
 
 ---
-## Tutoriais
+## 📘 Tutoriais
 
 Os tutoriais estão organizados na pasta `Tutorial/` e devem ser lidos **preferencialmente em ordem**:
 
