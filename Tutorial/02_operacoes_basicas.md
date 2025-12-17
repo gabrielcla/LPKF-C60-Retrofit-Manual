@@ -99,7 +99,8 @@ Após entrar é só girar o knut pro sentido horário até o final para ele pren
 <figcaption>
     <em>Disco que regula o limitador de profundidade</em>
 </figcaption>
-</figure>
+</figure><br>
+
 
 O limitador de profundidade é esse "copo" que fica ao redor da ferramenta no spindle. Ao girar o disco serrilhado esse copo sobe/desce para expor/esconder mais a ponta da ferramenta, permitindo regular o quão profundo a ferramenta entra na PCB.
 
