@@ -134,7 +134,7 @@ Se tentar furar sem o material de sacrificio em baixo da placa a **broca vai que
 
 --- 
 ➡️ Próximo tutorial:  
-[03 - Controlando a Máquina com G-codes](03_gcodes_basico.md)  
+[03 - Controlando a máquina com G-codes](03_gcodes_basico.md)  
 
 [⬅ Voltar para Tutoriais](../README.md#tutoriais)
 
