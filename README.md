@@ -9,11 +9,11 @@ O objetivo é servir como **guia prático** para **alunos, professores e técnic
 
 Os tutoriais estão organizados na pasta `Tutorial/` e devem ser lidos **preferencialmente em ordem**:
 
-[**1 - Conhecendo a máquina e o firmware FluidNC**](Tutorial/01_primeiros_passos.md)  
-[**2 - Operações básicas com a máquina**](Tutorial/02_operacoes_basicas.md)  
-[**3 - Controlando a máquina com G-codes**](Tutorial/03_gcodes_basico.md)  
-[**4 - Gerando G-codes a partir de um projeto CAD**](Tutorial/04_gcodes_cad.md)  
-[**5 - Usinando a partir dos G-codes**](Tutorial/05_usinagem.md)  
+[**01 - Conhecendo a máquina e o firmware FluidNC**](Tutorial/01_primeiros_passos.md)  
+[**02 - Operações básicas com a máquina**](Tutorial/02_operacoes_basicas.md)  
+[**03 - Controlando a máquina com G-codes**](Tutorial/03_gcodes_basico.md)  
+[**04 - Gerando G-codes a partir de um projeto CAD**](Tutorial/04_gcodes_cad.md)  
+[**05 - Usinando a partir dos G-codes**](Tutorial/05_usinagem.md)  
 
 
 ---
